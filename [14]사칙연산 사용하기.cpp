@@ -15,7 +15,7 @@ int main()
 	cout << "sum2 = " << sum2 << endl;
 
 	sum1 = 2;
-	sum2 = 8;
+	sum2 = 8; 
 	sum1 *= two;
 	sum2 /= eight;
 
