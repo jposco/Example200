@@ -12,7 +12,8 @@ answer = stoll(str);
 sort(str.begin(), str.end(), greater<char>());
 sort(str.begin(), str.end(), less<char>());
 ```
-- 'sort(v.begin(), v.end(), 정렬규칙))'
+- 'sort(v.begin(), v.end(), 정렬규칙))' 
+** sort는 앞에 아무것도 없다.
 - *sort함수는 기본적으로 오름차순으로 정렬된다. 'sort(v.begin(), v.end())'
 - 정렬규칙은 greater<>()은 내림차순이고, ~~less<>()은 오름차순으로~~ 정렬해준다.
 
