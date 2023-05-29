@@ -24,8 +24,9 @@ reverse(str.begin(), str.end());
 하지만 이 경우 정렬이 안되어있기때문에 정렬하는 코드를 추가로 적어줘야한다.
 
  #### erase, remove
- ```
   my_string.erase(remove(my_string.begin(),my_string.end(),letter[0]),my_string.end());
-  ```
+
 - remove() 함수는 범위 내에서 특정 값과 일치하는 요소를 앞으로 이동시키고, 제거한 후 범위의 새로운 끝을 반환합니다.
+ -> remove() 단독사용
 - erase() 함수를 사용하여 범위의 제거된 요소를 실제로 삭제합니다.
+ -> x.erase() 동반사용
