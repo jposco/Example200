@@ -6,13 +6,13 @@ using namespace std;
 
 int main()
 {
-	string seven_war = "ÀÓÁø¿Ö¶õ";
-	string korea_war = "ÇÑ±¹ÀüÀï";
+	string seven_war = "ì„ì§„ì™œë€";
+	string korea_war = "í•œêµ­ì „ìŸ";
 
 	if (seven_war.compare(korea_war) == 0)
-		cout << "°°Àº ¹®ÀÚ¿­ÀÔ´Ï´Ù\n";
+		cout << "ê°™ì€ ë¬¸ìì—´ì…ë‹ˆë‹¤\n";
 	else
-		cout << "´Ù¸¥ ¹®ÀÚ¿­ÀÔ´Ï´Ù\n";
+		cout << "ë‹¤ë¥¸ ë¬¸ìì—´ì…ë‹ˆë‹¤\n";
 	
 	return 0;
 };
