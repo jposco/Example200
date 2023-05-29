@@ -1,0 +1,11 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    string str = "Hello, World!";
+
+    // 인덱스 7부터 5개의 문자를 출력
+    cout << str.substr(7, 5) << endl; // (시작하는 인덱스, 부터 몇개까지)
+
+    return 0;
+}
