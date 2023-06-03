@@ -7,10 +7,11 @@ using namespace std;
 
 int main()
 {
+	string str = "i like coding";
+	
 	regex re1(R"(l|i|k|e)");
 	regex re2(R"(\D)");
 	regex re3(R"(\s)");
-	string str = "i like coding";
 
 	string result1 = regex_replace(str, re1, "[$&]");
 	string result2 = regex_replace(str, re1, "*");
