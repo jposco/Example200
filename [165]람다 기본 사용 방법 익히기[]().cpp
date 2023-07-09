@@ -22,4 +22,4 @@ int main()
 	cout << "x * x + y * y = " << func4(5) << endl;
 
 	return 0;
-}
+} 
