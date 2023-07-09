@@ -26,4 +26,4 @@ int main()
 	cout << "4보다 큰 정수 개수 : " << result2 << endl;
 	
 	return 0;
-}
+}  
